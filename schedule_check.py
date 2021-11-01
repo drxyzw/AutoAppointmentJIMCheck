@@ -39,7 +39,7 @@ if reservation:
     loop = 1
     startDate = targetDate
 else:
-    loop = 100
+    loop = 120
     startDate = dt.now()
 
 for i in range(loop):
